@@ -1,3 +1,62 @@
+# AI-Autonomous Air
+
+The AI-Autonomous Air project is an innovative solution for the development of dominant tactical autonomy for multi-ship, beyond visual range air combat missions. The project is being developed for the DARPA AIR (Autonomous Intelligent Robotics) program.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+- Node.js
+- React Native
+- Docker
+
+### Installing
+
+A step by step series of examples that tell you how to get a development environment running:
+
+1. Clone the repository
+```
+git clone https://github.com/<your_username>/ai-autonomous-air.git
+```
+
+2. Install the dependencies
+```
+npm install
+```
+
+3. Start the development server
+```
+npm start
+```
+
+## Deployment
+
+The project is deployed using Helm charts and Kubernetes. For more information, see the [k8s directory](k8s).
+
+## Built With
+
+- [React Native](https://facebook.github.io/react-native/) - The front-end framework
+- [Node.js](https://nodejs.org/) - The back-end framework
+- [Docker](https://www.docker.com/) - Containerization platform
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- [DARPA](https://www.darpa.mil/) - For the AIR program
+- [OpenAI](https://openai.com/) - For training the AI models
+
+
 
 ```
 ai-autonomous-air
